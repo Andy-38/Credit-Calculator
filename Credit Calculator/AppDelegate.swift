@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Credit Calculator
 //
-//  Created by Андрей on 22.12.2020.
+//  Created by Андрей Двойцов on 22.12.2020.
 //
 
 import UIKit
