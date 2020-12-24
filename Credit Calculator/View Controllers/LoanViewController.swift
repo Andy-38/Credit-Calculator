@@ -32,7 +32,9 @@ class LoanViewController: UIViewController {
         guard let nper = Double(nperTextField.text ?? "") else {return}
         // guard это что-то вроде if, но только с частью else
         guard let pv = Double(pvTextField.text ?? "") else {return}
-        guard let rate = Double(rateTextField.text ?? "") else {return}
+        let rateRight = rateTextField.text?.replacingOccurrences(of: ",", with: ".", options: .regularExpression, range: nil)
+        // заменяем , на . потому что в стандартной циферной клавиатуре точки нет!
+        guard let rate = Double(rateRight ?? "") else {return}
         let monthlyPayment = abs(ExcelFormulas.pmt(rate: (rate/100)/12, nper: nper, pv: pv))
         let formatter = NumberFormatter() // для форматирования результата
         formatter.currencySymbol = "₽"
