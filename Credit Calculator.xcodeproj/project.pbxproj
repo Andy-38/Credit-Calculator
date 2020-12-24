@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A15CC00B2594DAC300D4A320 /* LoanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CC00A2594DAC300D4A320 /* LoanViewController.swift */; };
 		A1ADCD0F2592602300CE583F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ADCD0E2592602300CE583F /* AppDelegate.swift */; };
 		A1ADCD112592602300CE583F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ADCD102592602300CE583F /* SceneDelegate.swift */; };
 		A1ADCD132592602300CE583F /* BalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ADCD122592602300CE583F /* BalanceViewController.swift */; };
 		A1ADCD162592602300CE583F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1ADCD142592602300CE583F /* Main.storyboard */; };
 		A1ADCD182592602600CE583F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1ADCD172592602600CE583F /* Assets.xcassets */; };
 		A1ADCD1B2592602600CE583F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1ADCD192592602600CE583F /* LaunchScreen.storyboard */; };
+		A1B2FECF2594F63B00A92FCB /* ExcelFormulas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2FECE2594F63B00A92FCB /* ExcelFormulas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A15CC00A2594DAC300D4A320 /* LoanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanViewController.swift; sourceTree = "<group>"; };
 		A1ADCD0B2592602300CE583F /* Credit Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Credit Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1ADCD0E2592602300CE583F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1ADCD102592602300CE583F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		A1ADCD172592602600CE583F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1ADCD1A2592602600CE583F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1ADCD1C2592602600CE583F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B2FECE2594F63B00A92FCB /* ExcelFormulas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelFormulas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A15CC00D2594DAED00D4A320 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1ADCD122592602300CE583F /* BalanceViewController.swift */,
+				A15CC00A2594DAC300D4A320 /* LoanViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		A1ADCD022592602300CE583F = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +69,14 @@
 		A1ADCD0D2592602300CE583F /* Credit Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				A1ADCD1C2592602600CE583F /* Info.plist */,
 				A1ADCD0E2592602300CE583F /* AppDelegate.swift */,
-				A1ADCD122592602300CE583F /* BalanceViewController.swift */,
-				A1ADCD102592602300CE583F /* SceneDelegate.swift */,
+				A1B2FECE2594F63B00A92FCB /* ExcelFormulas.swift */,
 				A1ADCD172592602600CE583F /* Assets.xcassets */,
+				A1ADCD1C2592602600CE583F /* Info.plist */,
 				A1ADCD192592602600CE583F /* LaunchScreen.storyboard */,
 				A1ADCD142592602300CE583F /* Main.storyboard */,
+				A1ADCD102592602300CE583F /* SceneDelegate.swift */,
+				A15CC00D2594DAED00D4A320 /* View Controllers */,
 			);
 			path = "Credit Calculator";
 			sourceTree = "<group>";
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A15CC00B2594DAC300D4A320 /* LoanViewController.swift in Sources */,
+				A1B2FECF2594F63B00A92FCB /* ExcelFormulas.swift in Sources */,
 				A1ADCD132592602300CE583F /* BalanceViewController.swift in Sources */,
 				A1ADCD0F2592602300CE583F /* AppDelegate.swift in Sources */,
 				A1ADCD112592602300CE583F /* SceneDelegate.swift in Sources */,
