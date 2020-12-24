@@ -82,7 +82,7 @@
                                             <action selector="fieldEditingChange:" destination="Jie-QA-FeO" eventType="editingChanged" id="6uC-FE-C3i"/>
                                         </connections>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Годовой процент" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UiA-13-5Oq">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ставка, % годовых" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UiA-13-5Oq">
                                         <rect key="frame" x="0.0" y="125" width="382" height="38.5"/>
                                         <color key="backgroundColor" systemColor="systemFillColor"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
