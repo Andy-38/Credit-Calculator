@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A15CC00B2594DAC300D4A320 /* LoanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CC00A2594DAC300D4A320 /* LoanViewController.swift */; };
+		A16AEE7C25B09CF600B20DEF /* ScreenShot02.png in Resources */ = {isa = PBXBuildFile; fileRef = A16AEE7A25B09CF600B20DEF /* ScreenShot02.png */; };
+		A16AEE7D25B09CF600B20DEF /* ScreenShot01.png in Resources */ = {isa = PBXBuildFile; fileRef = A16AEE7B25B09CF600B20DEF /* ScreenShot01.png */; };
 		A1ADCD0F2592602300CE583F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ADCD0E2592602300CE583F /* AppDelegate.swift */; };
 		A1ADCD112592602300CE583F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ADCD102592602300CE583F /* SceneDelegate.swift */; };
 		A1ADCD132592602300CE583F /* BalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ADCD122592602300CE583F /* BalanceViewController.swift */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		A15CC00A2594DAC300D4A320 /* LoanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanViewController.swift; sourceTree = "<group>"; };
+		A16AEE7A25B09CF600B20DEF /* ScreenShot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot02.png; sourceTree = "<group>"; };
+		A16AEE7B25B09CF600B20DEF /* ScreenShot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot01.png; sourceTree = "<group>"; };
 		A1ADCD0B2592602300CE583F /* Credit Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Credit Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1ADCD0E2592602300CE583F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1ADCD102592602300CE583F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +54,15 @@
 			path = "View Controllers";
 			sourceTree = "<group>";
 		};
+		A16AEE7925B09CC700B20DEF /* ScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				A16AEE7B25B09CF600B20DEF /* ScreenShot01.png */,
+				A16AEE7A25B09CF600B20DEF /* ScreenShot02.png */,
+			);
+			path = ScreenShots;
+			sourceTree = "<group>";
+		};
 		A1ADCD022592602300CE583F = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +82,7 @@
 		A1ADCD0D2592602300CE583F /* Credit Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				A16AEE7925B09CC700B20DEF /* ScreenShots */,
 				A1ADCD0E2592602300CE583F /* AppDelegate.swift */,
 				A1B2FECE2594F63B00A92FCB /* ExcelFormulas.swift */,
 				A1ADCD172592602600CE583F /* Assets.xcassets */,
@@ -138,9 +152,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A16AEE7D25B09CF600B20DEF /* ScreenShot01.png in Resources */,
 				A1ADCD1B2592602600CE583F /* LaunchScreen.storyboard in Resources */,
 				A1ADCD182592602600CE583F /* Assets.xcassets in Resources */,
 				A1ADCD162592602300CE583F /* Main.storyboard in Resources */,
+				A16AEE7C25B09CF600B20DEF /* ScreenShot02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
