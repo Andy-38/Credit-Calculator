@@ -8,5 +8,5 @@ Use Xcode 12 or above to install
 
 ## ScreenShots
 
-![Game Process](https://github.com/Andy-38/GameSamolet/blob/main/GameSamolet/ScreenShots/ScreenShot01.png?raw=true)
-![Game Over](https://github.com/Andy-38/GameSamolet/blob/main/GameSamolet/ScreenShots/ScreenShot02.png?raw=true)
+![First Screen](https://github.com/Andy-38/Credit-Calculator/blob/main/Credit%20Calculator/ScreenShots/ScreenShot01.png)
+![Calculation result](https://github.com/Andy-38/Credit-Calculator/blob/main/Credit%20Calculator/ScreenShots/ScreenShot02.png)
