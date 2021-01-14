@@ -37,7 +37,7 @@ class LoanViewController: UIViewController {
         guard let rate = Double(rateRight ?? "") else {return}
         let monthlyPayment = abs(ExcelFormulas.pmt(rate: (rate/100)/12, nper: nper, pv: pv))
         let formatter = NumberFormatter() // для форматирования результата
-        formatter.currencySymbol = "₽"
+        formatter.currencySymbol = "₽" // валюта - рубли
         formatter.numberStyle = .currency // денежный формат
         guard let monthlyPaymentText = formatter.string(from: NSNumber(value: monthlyPayment)) else {return} //если не получилось преобразовать - то выходим из функции
         monthlyPaymentLabel.text = "Ежемесячный платеж: \(monthlyPaymentText)"
@@ -45,6 +45,6 @@ class LoanViewController: UIViewController {
     
     // MARK: - Actions
     @IBAction func fieldEditingChange(_ sender: UITextField) {
-        updateMonthlyPaymentLabel()
+        updateMonthlyPaymentLabel() // рассчитываем месячный платеж
     }
 }
