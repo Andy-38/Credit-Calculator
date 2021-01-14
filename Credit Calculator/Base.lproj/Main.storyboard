@@ -132,7 +132,6 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="9N7-GH-pBi"/>
                         <segue destination="Jie-QA-FeO" kind="relationship" relationship="viewControllers" id="toV-Oc-Tx0"/>
                     </connections>
                 </tabBarController>
